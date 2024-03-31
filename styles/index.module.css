@@ -1,0 +1,106 @@
+.header {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: white;
+
+  display: grid;
+  gap: 1rem;
+}
+
+/* container */
+.container {
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+  line-height: 1.2;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.container_box {
+  background-color: #1f1a36;
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+  border-radius: 0.4rem;
+}
+
+.container_box span {
+  color: antiquewhite;
+  font-weight: 600;
+}
+
+.container_box h3 {
+  color: white;
+  border-bottom: 1px solid antiquewhite;
+  padding: 0.5rem;
+}
+
+.container_block {
+  height: 70vh;
+  overflow: scroll;
+}
+
+.container_block::-webkit-scrollbar {
+  display: none;
+}
+
+.oneBlock {
+  display: flex;
+  gap: 2rem;
+}
+
+.bk {
+  background-color: antiquewhite;
+  width: 1.5rem;
+  color: #1f1a36;
+  font-weight: bolder;
+  padding: 0.2rem;
+  border-radius: 0.2rem;
+}
+
+.reward {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+  justify-content: space-between;
+}
+
+.reward span {
+  color: antiquewhite;
+  font-weight: bolder;
+}
+
+.miner {
+  line-height: 1;
+}
+
+/* account address//////////// */
+
+.accountAddress {
+  background-color: #1f1a36;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.accountAddress input {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: white;
+  width: 100%;
+}
+
+.accountAddress input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.781);
+}

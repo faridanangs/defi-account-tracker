@@ -1,0 +1,173 @@
+.accountDIV {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btnContainer .box {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-block: 2rem;
+  background-color: #1f1a36;
+  color: white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  padding: 0 1rem;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    border-radius: .5rem;
+    color: white;
+    padding: 0 1rem;
+    background-color: #1f1a36;
+    margin: 1rem 0;
+    justify-content: space-between;
+}
+
+.box span {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.owner {
+  display: flex;
+  padding: 0.5rem 1rem;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 0.8rem;
+}
+
+.owner p {
+  display: flex;
+  padding: 0.5rem 1rem;
+  color: #1f1a36;
+  align-items: center;
+  background-color: antiquewhite;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+/* /////// overview box */
+
+.overviewBox {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  line-height: 1;
+  font-size: 14px;
+}
+
+.overview {
+  background-color: #1f1a36;
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.5rem;
+  font-size: 14px;
+}
+
+.overviewTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.overviewTitle .ptitle1 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    background: antiquewhite;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #1f1a36;
+}
+
+.miner {
+  box-shadow: 2px -2px antiquewhite, 0px 0.6px antiquewhite;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.accountBalance {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.accountValue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.color {
+  background-color: antiquewhite;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  color: #1f1a36;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.branding {
+  background-color: #1f1a36;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.btnContainer {
+  margin-bottom: 4rem;
+  position: relative;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.btnContainer h1 {
+  font-size: 4rem;
+  line-height: 1;
+  color: rgb(75, 90, 128);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.btnContainer h1 button {
+  font-size: 1.2rem;
+  width: 13%;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  background-color: #1f1a36;
+  color: rgb(227, 227, 235);
+  border-radius: 0.4rem;
+}
+
+.loading {
+  background-color: #1f1a36;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

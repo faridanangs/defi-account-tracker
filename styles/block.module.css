@@ -1,0 +1,94 @@
+.block {
+  width: 80%;
+  margin: 0 auto;
+  margin-block: 2rem;
+}
+
+.box_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box_header h3 {
+  color: white;
+  background-color: #1f1a36;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.box_header p {
+  background-color: #1f1a36;
+  color: wheat;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+}
+
+.blockBtn {
+  background-color: #1f1a36;
+  display: flex;
+  gap: 1rem;
+  justify-content: start;
+  border-bottom: 1px solid antiquewhite;
+  padding-bottom: 0.5rem;
+}
+
+.blockBtn button {
+  background-color: transparent;
+  border: 0;
+  font-size: 1rem;
+  color: white;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.blockTable {
+  background-color: #1f1a36;
+  margin-block: 2rem;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 1.4rem;
+}
+
+.dataRow {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.color {
+  color: antiquewhite;
+  cursor: pointer;
+}
+
+.transHash{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.tableInfo{
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.tableInfo::-webkit-scrollbar{
+    width: auto;
+}
+
+@media screen and (max-width: 35rem) {
+  .block {
+    width: 95%;
+  }
+
+  .block_header p {
+    display: none;
+  }
+
+  .dataRow {
+    grid-template-columns: 2fr 4fr;
+  }
+}

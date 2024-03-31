@@ -1,0 +1,101 @@
+.table {
+  background-color: #1f1a36;
+  color: white;
+  padding: 0.5rem 2rem;
+  margin-block: 1rem;
+  font-size: 12px;
+  z-index: 2000;
+  width: 80%;
+  margin: 2rem auto;
+  border-radius: .4rem;
+}
+
+.table_head {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid antiquewhite;
+  padding-bottom: 0.5rem;
+}
+
+.btn {
+  background-color: antiquewhite;
+  border: 0;
+  color: #1f1a36;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  color: rgb(76, 0, 255);
+}
+
+.numberOfTrans {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.dataTable {
+  display: grid;
+  grid-template-columns: 15rem repeat(15, 5rem);
+  align-items: center;
+  gap: 1rem;
+  font-size: 10px;
+  overflow-x: auto;
+}
+
+.dataTable::-webkit-scrollbar {
+  width: .2rem;
+  height: 10px;
+}
+
+.dataTable::-webkit-scrollbar-track {
+  background-color: rgb(80, 80, 79);
+  outline: 1px solid slategray;
+  border-radius: 1rem;
+}
+
+.tableTitle p {
+  font-size: 12px;
+  font-weight: 700;
+  color: antiquewhite;
+}
+
+.transHash {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.toLink {
+  cursor: pointer;
+  color: antiquewhite;
+}
+
+
+/* /////////// ERC20 token */
+
+.sorry{
+   text-align: center;
+   font-size: 1.4rem;
+   font-weight: bold;
+   height: 10rem;
+}
+
+/* //////// media query */
+@media screen and (max-width: 35em) {
+    .table_head{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dataTable{
+        overflow-x: auto;
+        
+    }
+}
+
