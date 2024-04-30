@@ -34,9 +34,11 @@ function MyApp({ Component, pageProps }) {
         {showErrorMessage ? (
           <ErrorMessage message="Website ini hanya dapat diakses pada layar tablet atau lebih besar." />
         ) : (
-        <Navbar />
+        <>
+          <Navbar />
           <Component {...pageProps} />
         <Footer />
+          </>
         )}
       </div>
     </EtherProvider>
